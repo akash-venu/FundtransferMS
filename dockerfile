@@ -1,5 +1,6 @@
 # Step 1: Use a base image with Java installed
-FROM openjdk:17-jdk-slim
+# Step 1: Use a base image with Java installed
+FROM amazoncorretto:17
 
 # Step 2: Set a working directory
 WORKDIR /app
